@@ -1,5 +1,5 @@
 {
-  "name": "ng2-file-upload-base",
+  "name": "ngx-file-upload-base",
   "version": "1.2.1",
   "private": true,
   "description": "Angular file upload directives",
@@ -22,13 +22,12 @@
     "test-coverage": "ng test -sr -cc",
     "version": "npm run flow.changelog && git add -A"
   },
-  "main": "bundles/ng2-file-upload.umd.js",
+  "main": "bundles/ngx-file-upload.umd.js",
   "module": "index.js",
   "typings": "index.d.ts",
   "keywords": [
-    "angular2",
+    "angular",
     "bootstrap",
-    "angularjs",
     "twitter-bootstrap",
     "file-upload",
     "angular-file-upload"
@@ -37,12 +36,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/valor-software/ng2-file-upload.git"
+    "url": "git+ssh://git@github.com/valor-software/ngx-file-upload.git"
   },
   "bugs": {
-    "url": "https://github.com/valor-software/ng2-file-upload/issues"
+    "url": "https://github.com/valor-software/ngx-file-upload/issues"
   },
-  "homepage": "https://github.com/valor-software/ng2-file-upload#readme",
+  "homepage": "https://github.com/valor-software/ngx-file-upload#readme",
   "dependencies": {},
   "peerDependencies": {
     "@angular/common": "^2.3.1 || >=4.0.0",
